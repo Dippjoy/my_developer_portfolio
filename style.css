@@ -1,5 +1,31 @@
 h1{color: black; 
 font-size: 50px; 
 }
-body{font-family: 'Poppins', sans-serif;}
+body{font-family: 'Poppins', sans-serif;
+margin: 0;
+}
 .yellow{color: rgb(128, 9, 118);}
+section{display:flex ;}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+    height: 70%;
+    padding-left: 15%;
+}
+.description{padding-left: 10%;}
+div p{text-align: justify;}
+.my-link{background-image: linear-gradient(red, orange);
+border-radius: 5%;
+padding:10px 20px;
+color: whitesmoke;
+font-weight: bold;
+text-decoration: none;}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right ;}
